@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lesson.github.io/static/css/main.7cb5e9ee.css",
+    "main.css": "/lesson.github.io/static/css/main.78aaf836.css",
     "main.js": "/lesson.github.io/static/js/main.f0f65b2b.js",
     "static/js/488.580d3021.chunk.js": "/lesson.github.io/static/js/488.580d3021.chunk.js",
     "index.html": "/lesson.github.io/index.html",
-    "main.7cb5e9ee.css.map": "/lesson.github.io/static/css/main.7cb5e9ee.css.map",
+    "main.78aaf836.css.map": "/lesson.github.io/static/css/main.78aaf836.css.map",
     "main.f0f65b2b.js.map": "/lesson.github.io/static/js/main.f0f65b2b.js.map",
     "488.580d3021.chunk.js.map": "/lesson.github.io/static/js/488.580d3021.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cb5e9ee.css",
+    "static/css/main.78aaf836.css",
     "static/js/main.f0f65b2b.js"
   ]
 }
