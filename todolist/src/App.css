@@ -1,4 +1,5 @@
 .container {
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -7,8 +8,12 @@ header h1{
 }
 
 .add-wrapper {
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #333;
   padding: 20px;
+}
+
+.add-wrapper input {
+  width: 200px;
 }
 
 .add-wrapper label {
@@ -19,6 +24,7 @@ header h1{
   padding: 20px;
 }
 
+/*チェックボックスとテキストを同じ高さにする（垂直方向の中心をそろえる）*/
 .list-wrapper input,
 .list-wrapper label
 {
