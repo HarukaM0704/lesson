@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lesson.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/lesson.github.io/static/js/main.d4e33c31.js",
+    "static/js/488.580d3021.chunk.js": "/lesson.github.io/static/js/488.580d3021.chunk.js",
+    "index.html": "/lesson.github.io/index.html",
+    "main.f855e6bc.css.map": "/lesson.github.io/static/css/main.f855e6bc.css.map",
+    "main.d4e33c31.js.map": "/lesson.github.io/static/js/main.d4e33c31.js.map",
+    "488.580d3021.chunk.js.map": "/lesson.github.io/static/js/488.580d3021.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d4e33c31.js"
+  ]
+}
