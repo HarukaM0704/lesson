@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TodoList from "./TodoList";
 import {v4 as uuidv4} from 'uuid';
+import './App.css'
 
 function TodoAdd() {
     const [todos,setTodos] = useState([
@@ -24,13 +25,15 @@ function TodoAdd() {
     }
 
     return(
+        <>
         <div className="add-wrapper">
             <div className="container">
                 <label>ToDo : <input value={inputValue} onChange={handleInputValue}></input></label>
                 <button onClick={handleAddTodo}>登録</button>
             </div>
-            <TodoList todos={todos}/>
         </div>
+        <TodoList todos={todos}/>
+        </>
     );
 }
 

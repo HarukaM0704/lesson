@@ -1,8 +1,9 @@
 import React from "react";
+import './App.css';
 
 const TodoList = ({ todos }) => {
     return (
-        <div className="list-wrapeer">
+        <div className="list-wrapper">
             <div className="container">
                 {todos.map(todo => {
                     return (
