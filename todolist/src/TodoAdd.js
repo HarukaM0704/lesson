@@ -5,8 +5,14 @@ import './App.css'
 
 function TodoAdd() {
     const [todos,setTodos] = useState([
-        {id: 1, name: "todo1", completed:false}
+  //      {id: 1, name: "todo1", completed:false}
     ])
+
+    const deleteTask = (e) => {
+        setTodos(
+            todos.filter((todo,index) => (todo.id !== e.currentTarget.parentNode.parentNode.getAttribute('mykey')))
+        )
+    }
 
     const [inputValue, setInputValue] = useState('')
 
@@ -18,7 +24,7 @@ function TodoAdd() {
         if(inputValue !== ''){
             return(
                 setTodos((prevTodos) => {
-                    return [...prevTodos,{id:uuidv4(), name: inputValue, completed:false}]
+                    return [...prevTodos,{id:uuidv4(), name: inputValue}]
                 })
             )
         }
@@ -32,7 +38,10 @@ function TodoAdd() {
                 <button onClick={handleAddTodo}>登録</button>
             </div>
         </div>
-        <TodoList todos={todos}/>
+        <TodoList 
+            todos={todos}
+            deleteTask={deleteTask}
+        />
         </>
     );
 }

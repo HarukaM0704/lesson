@@ -10,6 +10,7 @@ header h1{
 .add-wrapper {
   border-bottom: 1px solid #333;
   padding: 20px;
+  text-align: center;
 }
 
 .add-wrapper input {
@@ -25,8 +26,26 @@ header h1{
 }
 
 /*チェックボックスとテキストを同じ高さにする（垂直方向の中心をそろえる）*/
-.list-wrapper input,
-.list-wrapper label
+.list-wrapper input
 {
   vertical-align: middle;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.check {
+  width: 20%;
+  text-align: center;
+}
+
+.task {
+  width: 50%;
+}
+
+.delete {
+  width: 10%;
+  text-align: center;
 }
