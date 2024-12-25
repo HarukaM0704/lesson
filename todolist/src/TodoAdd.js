@@ -21,6 +21,7 @@ function TodoAdd() {
     }
 
     const handleAddTodo = () => {
+        setInputValue('')
         if(inputValue !== ''){
             return(
                 setTodos((prevTodos) => {
