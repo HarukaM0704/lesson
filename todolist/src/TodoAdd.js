@@ -21,8 +21,8 @@ function TodoAdd() {
     }
 
     const handleAddTodo = () => {
-        setInputValue('')
         if(inputValue !== ''){
+            setInputValue('')
             return(
                 setTodos((prevTodos) => {
                     return [...prevTodos,{id:uuidv4(), name: inputValue}]
