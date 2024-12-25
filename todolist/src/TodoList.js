@@ -7,7 +7,7 @@ const TodoList = ({ todos,deleteTask }) => {
             <div className="container">
                 <table border={1}>
                     <tr bgcolor="pink">
-                        <th className="check">チェック</th>
+                        <th className="check"></th>
                         <th className="task">タスク名</th>
                         <th className="delete">削除</th>
                     </tr>
